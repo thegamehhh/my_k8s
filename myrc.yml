@@ -7,8 +7,9 @@ spec:
  selector: 
   app: mynginx
  template:
-  metadata:
-   name: my-second-pod
+   metadata:
+    labels:
+     app: mynginx
   spec:
     containers:
     - name: my-first-container
