@@ -4,6 +4,7 @@ metadata:
  name: mysvc
  labels: 
   app: mynginx
+  version: 2.3.5
 spec:
  type: NodePort
  ports:
@@ -11,6 +12,7 @@ spec:
     nodePort: 30001
     protocol: TCP
  selector:
-  app: mynginx   
+  app: mynginx 
+  version: 2.3.5  
 
   
