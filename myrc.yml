@@ -17,4 +17,4 @@ spec:
     - name: my-first-container
       image: maha4iac/myjavaaplication:1
       ports:
-        - containerPort: 80  
+        - containerPort: 8080
