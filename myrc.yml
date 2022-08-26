@@ -6,15 +6,15 @@ spec:
  replicas: 3
  selector: 
   app: mynginx
-  version: 2.3.6
+  version: 2.3.7
  template:
    metadata:
     labels:
      app: mynginx
-     version: 2.3.6
+     version: 2.3.7
    spec:
     containers:
     - name: my-first-container
-      image: maha4iac/myjavaaplication:1
+      image: maha4iac/myjavaaplication:2
       ports:
         - containerPort: 8080
