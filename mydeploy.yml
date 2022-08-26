@@ -7,7 +7,7 @@ metadata:
 spec:
  replicas: 3
  selector:
-  macthLabels: 
+  matchLabels: 
    app: myjava
  template:
   metadata:
